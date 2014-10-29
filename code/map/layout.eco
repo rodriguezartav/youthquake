@@ -1,0 +1,22 @@
+<div class="map_component">
+
+	<div class="map"> 
+			<img data-base="{3vot}" src=""/>
+	</div>
+
+	<div class="dashboard">
+		
+		<div class="result">
+			<div class="percent r_percent red">00%</div>
+			<div class="party black"><%= @cantidate_r %></div>
+		</div>
+
+		<div class="result">
+			<div class="percent d_percent blue">00%</div>
+
+			<div class="party black"><%= @cantidate_d %></div>
+		</div>
+
+	</div>
+
+</div>

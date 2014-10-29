@@ -1,0 +1,38 @@
+
+<div class="state-slider">
+
+	<div class="slider-component">
+		<div class="option-title black">What percentage of young citizens, age 18-29, will vote <%= @label %>?</div>
+
+		<div id="demo-simple-slider" class="dragdealer slider_1">
+		  <div class="handle red-bar"><div class="circle"><span class="label"></span></div></div>
+		</div>
+		
+
+	</div>
+	<div class="slider-component slider-component">
+
+		<div class="option-title black">What percentage of older citizens, age 30+, will vote <%= @label %>?</div>
+
+		<div id="demo-simple-slider1" class="dragdealer slider_2">
+	<div class="handle red-bar"><div class="circle"><span class="label"></span></div></div>	</div>
+		
+	</div>
+
+	
+	<div class="slider-component slider-component__gray">
+		<div class="option-title black">What percentage of young citizens, age 18-29, will vote at all?</div>
+
+		<div id="demo-simple-slider2" class="dragdealer slider_3">
+		<div class="handle red-bar"><div class="circle"><span class="label"></span></div></div>	</div>
+		
+		<div class="social_bar">
+			<img data-type="facebook" class="social_btn_facebook social" src="{3vot}/images/facebook.png"/>
+
+			<img data-type="twitter" class="social_btn_twitter social" src="{3vot}/images/twitter.png"/>
+		</div>
+
+	</div>
+
+
+</div>

@@ -1,0 +1,323 @@
+/*Fonts*/ 
+@import url(//fonts.googleapis.com/css?family=Oswald|Open+Sans:400,300,600,700);
+
+body,html{
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  max-width: 670px;
+  margin: 0px auto;
+}
+
+
+._3vot{
+  margin: 0px;
+  padding: 0px;
+  -webkit-transition: left 0.4s , opacity 0.3s; /* For Safari 3.1 to 6.0 */
+  transition: left 0.4s , opacity 0.3s;
+  opacity: 0;
+  height: 520px;
+}
+
+
+.green{
+  color: #629632;
+}
+
+
+.blue{
+  color: #0044A2;
+}
+
+.red{
+  color: #D8353D;
+}
+
+.black{
+  color: #777;
+}
+
+.pull-right{
+  float: right;
+}
+
+
+.dragdealer {
+  position: relative;
+  height: 30px;
+  background: transparent;
+  background-image: url("http://3vot.com/fusion/elections_map/images/slider.jpg");
+  background-repeat: repeat-x;
+  background-position: 5px 7px;
+}
+
+.dragdealer .handle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+
+}
+
+.dragdealer .red-bar {
+  width: 40px;
+  height: 30px;
+  background: transparent;
+}
+
+.dragdealer .red-bar .circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  background: #fff;
+  border: 1px #ddd solid;
+  color: #FFF;
+  margin: 0px auto;
+}
+
+.dragdealer .red-bar .circle span{
+  position: absolute;
+  top: 23px;
+  color: #000;
+  font-size: 13px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+}
+
+.dragdealer .disabled {
+  background: #898989;
+}
+
+.option-title{
+  font-size: 10px;
+  line-height: 13px;
+  color: #214A68;
+  margin-bottom: 3px;
+  font-weight: 700;
+  font-family: 'Open Sans', sans-serif;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+
+.map_component{
+  position: relative;
+  background-color: rgb(230,230,230);
+  margin-bottom: 8px;
+}
+
+.map{
+}
+
+.map img{
+  margin: 0px auto;
+  display: block;
+  max-height: 150px;
+}
+
+.dashboard{
+  position: absolute;
+  right: 7px;
+  bottom: 20px;
+  border: 2px solid #ccc;
+  width: 60px;
+}
+
+.dashboard .result{
+}
+
+.dashboard .result:first-child{
+  border-bottom: 1px solid #ccc;
+}
+
+
+.dashboard .result .percent{
+  text-align: center;
+  font-size: 22px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.dashboard .result .party{
+  text-align: center;
+  font-size: 8px;
+  line-height: 12px;
+  margin-bottom: 2px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #666;
+}
+
+.slider-component{
+  padding: 3px 12px;
+  margin-bottom: 10px;
+  margin-top: 6px;
+}
+
+.slider-component__gray{
+  background-color: #F2F2F2;
+  padding-bottom: 15px;
+  padding-top: 12px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+
+.labels{
+  padding: 3px 12px;
+  font-size: 8px;
+  position: relative;
+  height: 0px;
+  top: -24px;
+}
+
+.horizontal-selector{
+  width: 90%;
+  overflow: hidden;
+  background-color: #fff;
+  padding: 12px;
+  padding-bottom: 0px;
+  padding-top: 4px;
+}
+
+.horizontal-selector-scroll{
+  text-align: center;
+}
+
+.horizontal-item{
+  text-align: center;
+  padding: 2px 7px;
+  display: inline-block;
+  font-size: 15px;
+  color: #214A68;
+  text-transform: uppercase;
+  margin-right: 7px;
+  opacity: 0.2;
+  cursor: pointer;
+  padding-top: 0px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.horizontal-item.active{
+  opacity: 1;
+}
+
+.social_bar{
+  text-align: center;
+}
+
+.social_bar img{
+  display: inline-block;
+  padding: 20px 30px 0px 30px;
+  margin: 10px auto 0px auto;
+}
+
+
+@media (min-width: 340px) and (-webkit-device-pixel-ratio: 1){
+  
+  ._3vot{
+      height: 821px;
+
+  }
+
+  .option-title{
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 400;
+    padding-left: -20px;
+    padding-right: -20px;
+    margin-bottom: 10px;
+
+  }
+
+  .slider-component__gray  .option-title{
+    font-weight: 700;
+    margin-top: 20px;
+  }
+
+  .horizontal-item{
+    padding: 0px 30px;
+    margin: 0px auto;
+    font-size: 20px;
+    line-height: 36px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
+
+  .map_component{
+    margin-bottom: 30px;
+  }
+
+  .slider-component{
+    margin-bottom: 25px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .dragdealer{
+        padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .map img{
+    height: 340px;
+    max-height: 340px;
+  }
+
+  .dashboard{
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+    border: 2px solid #ccc;
+    width: 100px;
+  }
+
+  .dashboard .result .percent{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+  }
+
+  .dashboard .result .party{
+    text-align: center;
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 2px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #666;
+  }
+
+  .dragdealer .red-bar .circle {
+  width: 25px;
+  height: 25px;
+  border-radius: 20px;
+  background: #fff;
+  border: 1px #ddd solid;
+  color: #FFF;
+  margin: 0px auto;
+}
+
+.dragdealer .red-bar .circle span{
+  position: absolute;
+  top: 28px;
+  left: 10px;
+  color: #000;
+  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+}
+
+.social_bar{
+  margin-top: 10px;
+}
+
+
+}

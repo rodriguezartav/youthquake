@@ -1,0 +1,43 @@
+
+
+<div style="width:100%; min-height: 520px;" class="_3vot" id="_3vot_elections_map">
+    
+</div>
+
+<script>
+window.fbAsyncInit = function() {
+  FB.init({
+    appId      : '796694167041552',
+    xfbml      : true,
+    version    : 'v2.0'
+  });
+};
+
+(function(d, s, id){
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+
+
+window.isMobile = { 
+Android: function() { return navigator.userAgent.match(/Android/i); }, 
+BlackBerry: function() { return navigator.userAgent.match(/BlackBerry/i); }, 
+iOS: function() { return navigator.userAgent.match(/iPhone|iPad|iPod/i); }, 
+Opera: function() { return navigator.userAgent.match(/Opera Mini/i); }, 
+Windows: function() { return navigator.userAgent.match(/IEMobile/i); }, 
+any: function() { return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows()); } };
+
+if( isMobile.any() ){
+  document.getElementById("_3vot_elections_map").style.height = "520px";
+}
+else{
+  document.getElementById("_3vot_elections_map").style.height = "820px";
+}
+</script>
+
+<script src="http://3vot.com/fusion/elections_map/index.js"></script>
+
+

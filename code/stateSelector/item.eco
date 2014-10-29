@@ -1,0 +1,5 @@
+<div data-id="<%= @id %>" class="horizontal-item state_item col-md-3 col-xs-3 <%= @active %>">
+	
+	<%= @longName %>
+
+</div>
